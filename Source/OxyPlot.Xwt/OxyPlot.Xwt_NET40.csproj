@@ -32,6 +32,10 @@
     <DocumentationFile>..\..\Output\NET40\OxyPlot.Xwt.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="OxyPlot">
+      <HintPath>..\packages\OxyPlot.Core.1.0.0-unstable2025\lib\net40\OxyPlot.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
@@ -50,10 +54,8 @@
       <Project>{92494904-35FA-4DC9-BDE9-3A3E87AC49D3}</Project>
       <Name>Xwt</Name>
     </ProjectReference>
-    <ProjectReference Include="..\OxyPlot\OxyPlot_NET40.csproj">
-      <Project>{1C1D9807-BE39-40A4-87DE-3F81E7C651E5}</Project>
-      <Name>OxyPlot_NET40</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
-

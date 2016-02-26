@@ -54,14 +54,9 @@
       <Project>{FACB89E5-53A5-4748-9F5B-E0714EBB37B2}</Project>
       <Name>ExampleLibrary_NET40</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\OxyPlot\OxyPlot_NET40.csproj">
-      <Project>{1C1D9807-BE39-40A4-87DE-3F81E7C651E5}</Project>
-      <Name>OxyPlot_NET40</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\OxyPlot.Xwt\OxyPlot.Xwt_NET40.csproj">
       <Project>{3127C515-ED97-42E9-8915-C64584DC3194}</Project>
       <Name>OxyPlot.Xwt_NET40</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
-

@@ -54,14 +54,9 @@
       <Project>{C93D746E-1586-4D4F-B411-BF5A966E6A08}</Project>
       <Name>Xwt.WPF</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\OxyPlot\OxyPlot.csproj">
-      <Project>{7A0B35C0-DD17-4964-8E9A-44D6CECDC692}</Project>
-      <Name>OxyPlot</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\OxyPlot.Xwt\OxyPlot.Xwt.csproj">
       <Project>{4803717E-3DD6-4E91-99D2-5E19499552AF}</Project>
       <Name>OxyPlot.Xwt</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
-
